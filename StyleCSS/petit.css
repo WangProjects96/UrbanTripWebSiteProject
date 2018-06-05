@@ -1,0 +1,177 @@
+@font-face{
+	font-family:"hotel";
+	src:url("https://static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/open-source/opensans-bold-webfont.woff");
+}
+
+@font-face{
+	font-family:"bouton";
+	src:url("https://static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/b6878f57-4d64-4d70-926d-fa4dec6173a5.woff");
+}
+
+*{
+	transition: all 0.5s;
+}
+
+html{
+	margin:0;
+	padding:0;
+	overflow-x: hidden;
+}
+
+body{
+	margin: 0;
+	padding:0;
+	background-color: #efefef;
+}
+
+#map{
+	position:relative;
+	z-index: 0;
+}
+
+#carte{
+	position:absolute;
+}
+
+
+#entete{
+	position: relative;
+	border:1px solid;
+	border-color: transparent;
+	height:300px;
+	font-size: 50px;
+	font-family: open sans,sans-serif;
+	color: #F4DA70;
+	font-weight: bold;
+	text-align: center;
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin:0;
+	padding:0;
+}
+
+#entete svg{
+	display:none;
+}
+.ville{
+	font-size: 40px;
+	text-align: center;
+	padding-top:0px;
+	padding-bottom: 0px;
+	font-weight: bold;
+}
+.hotel{
+	box-sizing:border-box;
+	height:300px;
+	font-family: hotel;
+	padding:0;
+	margin:0;
+	margin-bottom: 40px;
+}
+
+.infoL, .infoR{
+	position:absolute;
+	box-sizing:border-box;
+	height:200px;
+	width:200px;
+	border:2px dashed black;
+	background-color: rgba(255,255,255,0.7);
+	border-radius: 15px;
+	z-index:1;
+	top:50px;
+}
+
+.infoL{
+	left:10%;
+}
+
+.infoR{
+	right:10%;
+}
+
+
+.icones{
+	height:76px;
+	border-bottom: 2px dashed black;
+}
+
+.hotel p{
+	display: block;
+	height:40px;
+	text-align: center;
+	font-size: 15px;
+	line-height: 40px;
+	margin:0;
+	overflow: hidden;
+}
+
+.prix{
+	height:40px;
+}
+
+.infoR a{
+	display:block;
+	width:100%;
+	height:40px;
+	font-family: bouton;
+	font-size: 15px;
+	font-style: italic;
+	text-decoration: none;
+	color:black;
+	background-color: rgba(221, 210, 198, 1);
+	text-align: center;
+	line-height: 40px;
+	border-radius: 0px 0px 14px 14px;
+}
+
+.infoL a{
+	display:block;
+	width:100%;
+	height:40px;
+	font-family: bouton;
+	font-size: 15px;
+	font-style: italic;
+	text-decoration: none;
+	color:black;
+	background-color: rgba(221, 210, 198, 1);
+	text-align: center;
+	line-height: 40px;
+	border-radius: 0px 0px 14px 14px;
+}
+
+
+.infoR a:hover{
+	color:white;
+	background-color: rgba(168, 158, 145, 1);
+	transition:0.4s;
+}
+
+.infoL a:hover{
+	color:white;
+	background-color: rgba(168, 158, 145, 1);
+	transition:0.4s;
+}
+
+
+
+.separateur{
+	display: none;
+}
+
+svg#fleche {
+	height: 45px;
+	width: 45px;
+	position: fixed;
+	bottom: 40px;
+	right: 10%;
+	z-index: 2;
+}
+
+circle, polyline {
+	stroke: white;
+}
+
+svg#fleche:hover circle, svg#fleche:hover polyline {
+	stroke: rgba(168, 158, 145, 1);
+}

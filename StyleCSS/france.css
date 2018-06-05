@@ -1,0 +1,14 @@
+@font-face{
+	font-family:"Paris";
+	src:url("http://static.wixstatic.com/ufonts/768279_97f749ae484d43daa6dd8b4cce12ff1b/woff/file.woff");
+}
+
+#entete{
+	background: transparent url("../Images/Destinations/France/France.jpg") no-repeat scroll 50% center / cover;
+	padding-top: 300px;
+}
+
+.ville{
+	font-family: Paris;
+}
+

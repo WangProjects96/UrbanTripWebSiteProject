@@ -1,0 +1,122 @@
+header{
+	box-sizing :border-box;
+	margin:auto;
+	padding:0;
+	display: block;
+}
+
+#logo{
+	display:none;
+}
+
+header nav{
+	width:inherit;
+	font: bold normal normal 1em helvetica-w01-bold,helvetica-w02-bold,helvetica-lt-w10-bold,sans-serif;
+	color: #262027;
+}
+
+header nav>ul{
+	width:100%;
+	box-sizing :border-box;
+	margin:0;
+	padding:0;
+	list-style-type:none;
+	text-align: center;
+}
+
+header li{
+	margin:0;
+	padding:0;
+	display: block;
+	width:100%;
+	line-height: 2em;
+	background-color: rgba(221, 210, 198, 1);
+}
+
+header .snav{
+	padding:0;
+}
+
+header nav ul li a{
+	color: #262027;
+}
+
+header .snav{
+	display:block;
+	max-height: 0em;
+	overflow:hidden;
+	transition: 0.5s max-height 0.1s;
+}
+
+header .snav>li{
+	box-sizing :border-box;
+	background-color:transparent;
+	width:90%;
+	margin:auto;
+	border-bottom:1px solid rgba(221, 210, 198, 1);
+}
+
+header .haut{
+	border-top:1px solid rgba(221, 210, 198, 1);
+}
+header .bas{
+	border-bottom: none;
+}
+
+header nav li:target .snav{
+	max-height:19em;
+}
+
+header nav li:target #derouler{
+	display:none;
+}
+
+header nav li:target #refermer{
+	display:block;
+	height:2em;
+	width:2em;
+	position:absolute;
+	right:10px;
+}
+
+header #derouler{
+	display:block;
+	height:2em;
+	width:2em;
+	position:absolute;
+	right:10px;
+}
+
+header #refermer{
+	display: none;
+}
+
+header .active>a{
+	color: #8B0000;
+}
+header .active{
+	background-color: rgba(168, 158, 145, 1);
+}
+header .active:active>a{
+	color:#8B0000;
+}
+header a:active{
+	text-decoration: none;
+	color: white;
+}
+
+header nav li:active>a{
+	color:white;
+}
+
+header li:active{
+	background-color: rgba(168, 158, 145, 1);
+}
+
+header .snav li:active a{
+	color:white;
+}
+header a:hover{
+	text-decoration:none;
+	color: white;
+}

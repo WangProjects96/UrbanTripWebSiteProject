@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>The Michelangelo Hotel</title>
+        <link href="StyleCSS/bootstrap.css" rel="stylesheet">
+        <link href="StyleCSS/full-slider.css" rel="stylesheet">
+        <link href="StyleCSS/spritesGrand.css" rel="stylesheet">
+        <link rel="stylesheet" media="screen and (max-width: 800px)" href="StyleCSS/petit.css" type="text/css" />
+        <link rel="stylesheet" media="screen and (min-width: 801px)" href="StyleCSS/grand.css" type="text/css" />
+        <link rel="stylesheet" media="screen and (max-width: 800px)" href="StyleCSS/hotelPetit.css" type="text/css" />
+        <link rel="stylesheet" media="screen and (min-width: 801px)" href="StyleCSS/hotel.css" type="text/css" />
+        <link rel="stylesheet" media="screen and (max-width: 800px)" href="StyleCSS/menuPetit.css" type="text/css" />
+        <link rel="stylesheet" media="screen and (min-width: 801px)" href="StyleCSS/menu.css" type="text/css" />
+        <link rel="stylesheet" media="screen and (max-width: 800px)" href="StyleCSS/reservationPetit.css" type="text/css" />
+        <link rel="stylesheet" media="screen and (min-width: 801px)" href="StyleCSS/reservation.css" type="text/css" />
+        <script src="js/jquery.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </head>
+
+    <body>
+
+        <header>
+            <a id="logo" href="accueil.html"></a>
+            <nav>
+                <ul>
+                    <li id="accueil"><a href="accueil.html">ACCUEIL</a></li>
+                    <li id="dest">
+                      <div id="derouler"><a href="#dest">▼
+                      </a></div>
+                      <div id="refermer"><a href="">▲
+                      </a></div>
+                        <a href="destinations.html">DESTINATIONS</a>
+                        <ul class="snav">
+                            <li class="haut"><a href="afrique_du_sud.html">Afrique du Sud</a></li>
+                            <li><a href="etats_unis.html">Etats-Unis</a></li>
+                            <li><a href="bresil.html">Brésil</a></li>
+                            <li><a href="chine.html">Chine</a></li>
+                            <li><a href="japon.html">Japon</a></li>
+                            <li><a href="grande-bretagne.html">Grande-bretagne</a></li>
+                            <li><a href="france.html">France</a></li>
+                            <li><a href="emirats.html">Emirats Arabes Unis</a></li>
+                            <li class="bas"><a href="australie.html">Australie</a></li>
+                        </ul>
+                    </li>
+                    <li id="promo"><a href="promotions.html">PROMOTIONS</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div id="page">
+            <div id="titre">
+                <p>Paiement et de facturartion</p>   
+            </div>
+            <div id="paie">
+            	<p class="titreP">Facturer à :</p>
+            	<form><input class="caseM" type="text" placeholder="Prénom">
+            	<input class="caseM" type="text" placeholder="Nom"></form>
+            	<form><input class="caseG" type="tel" placeholder="Numéro de téléphone principal"> <br/>
+            	<input class="caseG" type="email" placeholder="Adresse de courriel"><br/>
+            	<input class="caseG" type="email" placeholder="Confirmer l'adresse de courriel"></form>
+            	<br/>
+
+            	<p class="titreP">Adresse de facturation :</p>
+            	<form><input class="caseG" type="text" placeholder="Numéro ou nom du bâtiment et nom de la rue"> <br/>
+            	<input class="caseG" type="text" placeholder="Informations d'adresse supplémentaires (facultatif)"><br/>
+            	<input class="caseG" type="text" placeholder="Ville"><br/>
+            	<input class="caseP" type="text" placeholder="Code postal"></form>
+            	
+            	<form>
+					<select>
+				    	<option>France</option>
+				    	<option>Allemagne</option>
+				    	<option>Angleterre</option>
+				    	<option>Espagne</option>
+					</select>
+				    <br><br>
+				</form>
+
+				<p class="titreP">Mode de paiement :</p>
+				<table id="logoP">
+					<tr><td><a href="#"><p class="visa"></p></a></td>
+					<td><a href="#"><p class="mastercard"></p></a></td>
+					<td><a href="#"><p class="cb"></p></a></td>
+					<td><a href="#"><p class="paypal"></p></a></td></tr>
+				</table>
+				<form><input class="caseM" type="text" placeholder="N° de carte bancaire">
+            	<input class="caseP" type="text" placeholder="Code"><br/></form>
+            	<form> Expire le :
+					<select>
+				    	<option>Mois</option>
+				    	<option>01</option>
+				    	<option>02</option>
+				    	<option>03</option>
+				    	<option>04</option>
+				    	<option>05</option>
+				    	<option>06</option>
+				    	<option>07</option>
+				    	<option>08</option>
+				    	<option>09</option>
+				    	<option>10</option>
+				    	<option>11</option>
+				    	<option>12</option>
+					</select>
+					<select>
+				    	<option>Année</option>
+				    	<option>2017</option>
+				    	<option>2018</option>
+				    	<option>2019</option>
+				    	<option>2020</option>
+				    	<option>2021</option>
+				    	<option>2022</option>
+				    	<option>2023</option>
+				    	<option>2024</option>
+				    	<option>2025</option>
+					</select>
+				</form>
+            </div>
+			<button type="submit">Confirmer</button>
+        </div>
+    </body>
+</html>

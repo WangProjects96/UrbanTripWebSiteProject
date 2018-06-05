@@ -1,0 +1,13 @@
+@font-face{
+	font-family:"Shanghai";
+	src:url("http://static.wixstatic.com/ufonts/768279_2e47de666f394eb28f6052ddcb1e28fa/woff/file.woff");
+}
+
+#entete{
+	background: transparent url("../Images/Destinations/Chine/Chine.jpg") no-repeat scroll 50% center / cover;
+	padding-top: 50px;
+}
+
+.ville{
+	font-family: Shanghai;
+}

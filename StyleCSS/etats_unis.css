@@ -1,0 +1,23 @@
+@font-face{
+	font-family:"LA";
+	src:url("http://static.wixstatic.com/ufonts/768279_ce46a22c754d44be9182066782b7ccbe/woff/file.woff");
+}
+
+@font-face{
+	font-family:"NY";
+	src:url("http://static.wixstatic.com/ufonts/768279_dc857ca11e404d979504b2042b644fd3/woff/file.woff");
+}
+
+#entete{
+	background: transparent url("../Images/Destinations/USA/USA.jpg") no-repeat scroll 50% center / cover;
+	padding-top: 150px;
+}
+
+#NY{
+	font-family: NY;
+}
+
+#LA{
+	font-family: LA;
+}
+

@@ -1,0 +1,48 @@
+#paie{
+	width:400px;
+	height:650px; 
+	margin: auto;
+}
+
+.caseG{
+	width: 350px;
+	margin: 0px 0px 15px 0px;
+}
+
+.caseM{
+	width: 150px;
+	margin: 0px 0px 10px 0px
+}
+
+.caseP{
+	width: 100px;
+	margin: 0px 0px 15px 0px;
+}
+
+input{
+	border:1px solid #ccc;
+	border-radius: 5px;	
+	-moz-box-shadow: inset 1px 1px 2px 0px #656565;
+	-webkit-box-shadow: inset 1px 1px 2px 0px #656565;
+	-o-box-shadow: inset 1px 1px 2px 0px #656565;
+	box-shadow: inset 1px 1px 2px 0px #656565;
+	padding: 2px;
+}
+
+select{ 
+	border:1px solid #ccc; 
+	border-radius:5px; 
+	padding:5px; 
+	cursor:pointer;
+}
+
+#paie p{
+	font-size: 120%;
+	color:#726277;
+}
+
+button{
+	display:block;
+	margin:auto;
+	margin-top:20px;
+}

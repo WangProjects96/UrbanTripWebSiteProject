@@ -1,0 +1,35 @@
+#bg {
+	fill: #efefef;
+}
+[cc] {
+	fill: white;
+	stroke: #555;
+	stroke-width: 0.5px;
+}
+
+[cc]:hover{
+	fill:rgba(168, 158, 145, 1);
+}
+
+.visitable{
+	fill:rgba(221, 210, 198, 0.5);
+}
+
+#slogan{
+	fill:none;
+	stroke:black;
+	stroke-width:3px;
+	stroke-dasharray:10,5;
+}
+
+text{
+	font-weight:bold;
+	font-size:25px;
+}
+
+line{
+	fill:none;
+	stroke:black;
+	stroke-width:2px;
+	stroke-dasharray:5;
+}

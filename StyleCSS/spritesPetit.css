@@ -1,0 +1,70 @@
+
+table.icone tr td, .prix {
+    height: 30px;
+    width: 30px;
+    background: url("../Images/sprite_thumb_pictures.png") no-repeat; /* As all link share the same background-image */
+}
+table tr td.sport  {
+    background-position: 0 -85px;
+}
+table tr td.sportP  {
+    background-position: -30px -85px;
+}
+table tr td.chien  {
+    background-position: -60px -85px;
+}
+table tr td.chienP  {
+    background-position: -90px -85px;
+}
+table tr td.fume  {
+    background-position: -120px -85px;
+}
+table tr td.fumeP  {
+    background-position: -150px -85px;
+}
+table tr td.parking  {
+    background-position: -180px -85px;
+}
+table tr td.parkingP  {
+    background-position: -210px -85px;
+}
+table tr td.wifi  {
+    background-position: -240px -85px;
+}
+table tr td.petitDej  {
+    background-position: -300px -85px;
+}
+.prix {
+    background-position: -330px -85px;
+    margin-left: 15px;
+}
+table.icone{
+    margin-left:5px; 
+    border-collapse: separate;
+    border-spacing: 25px 5px;
+}
+
+.prix p{
+    text-align: left;
+    width:400px;
+    height:60px;
+    font-size:30px;
+}
+.prix p span.prixA{
+    margin-right: 0px;
+    font-size:10px;
+    margin-left: 0px;
+    text-decoration: line-through;
+}
+
+.prix p span.prixN{
+    margin-left: 5px;
+    margin-right: 180px;
+    color: red;
+    text-decoration: none;
+}
+
+
+.prix p.prixI{
+    margin-left: -120px;
+}

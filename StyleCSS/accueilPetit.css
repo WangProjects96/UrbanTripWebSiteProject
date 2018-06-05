@@ -1,0 +1,356 @@
+	
+html{
+	overflow-x : hidden
+}
+	
+	
+	
+@font-face{
+	font-family:"nairobi";
+	src:url("http://static.wixstatic.com/ufonts/768279_2c5a9e5a0ca645719f67840fcccff95e/woff/file.woff");
+}
+
+.car{
+width:100%;
+	text-align: center;
+	margin : auto;
+	padding:0;
+}
+
+
+}
+#entete{
+
+}
+
+
+
+.ville{
+	font-family: nairobi;
+}
+
+.carousel .slide{
+	position:relative;
+}
+
+
+
+h3 {
+	font-size: 22px;
+	font-weight: 500;
+	color: #333;
+}
+
+.hover-text h4 {
+	margin-top: 25px;
+}
+
+h5 {
+	text-transform: uppercase;
+	font-weight: 700;
+	line-height: 20px;
+}
+a {
+	color: #8eb640;
+}
+a:hover, a:focus {
+	text-decoration: none;
+	color: #222;
+}
+ul, ol {
+	list-style: none;
+}
+
+ul, ol {
+	padding: 0;
+}
+hr {
+	height: 2px;
+	width: 70px;
+	text-align: center;
+	position: relative;
+	background: #8eb640;
+	margin: 0;
+	margin-bottom: 40px;
+	border: 0;
+}
+a:focus {
+	outline: none;
+}
+
+
+.slide {
+	box-sizing: border-box;
+	height: 500px;
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin-bottom: 40px;
+}
+
+.h-texte {
+	letter-spacing: 0.1em;
+	font: bold 52px/1.1em raleway,sans-serif;
+	top: 90px;
+	left: 25%;
+	position: absolute;
+	z-index: 2;
+	color: #FFF;
+	z-index:1;
+}
+
+.h-texte span {
+	border-bottom: 2px dashed #FFF;
+	padding-top: 6px;
+	line-height: 1.2em;
+}
+
+.h-texte span:first-child {
+	border-top: 2px dashed #FFF;
+	padding-top: 0;
+}
+
+/* Portfolio Section */
+.categories {
+	padding-bottom: 30px;
+	text-align: center;
+}
+ul.cat li {
+	display: inline-block;
+}
+ol.type li {
+	display: inline-block;
+	margin: 0 10px;
+	padding: 20px 0;
+}
+ol.type li a {
+	color: #999;
+	font-weight: 500;
+	font-size: 14px;
+	padding: 12px 24px;
+	background: #eee;
+	border: 0;
+	border-radius: 0;
+	text-transform: uppercase;
+	letter-spacing: 0.5px;
+}
+
+.isotope-item {
+	z-index: 2
+}
+.isotope-hidden.isotope-item {
+	z-index: 1
+}
+.isotope, .isotope .isotope-item {
+	/* change duration value to whatever you like */
+	-webkit-transition-duration: 0.8s;
+	-moz-transition-duration: 0.8s;
+	transition-duration: 0.8s;
+}
+.isotope-item {
+	margin-right: -1px;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+.isotope {
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-webkit-transition-property: height, width;
+	-moz-transition-property: height, width;
+	transition-property: height, width;
+}
+.isotope .isotope-item {
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-webkit-transition-property: -webkit-transform, opacity;
+	-moz-transition-property: -moz-transform, opacity;
+	transition-property: transform, opacity;
+}
+.portfolio-item {    
+	margin-bottom: 15px;  /* Ca permet de faire un espace entre les différents carrés */
+	
+}
+.portfolio-item .hover-bg {
+	overflow: hidden;
+	position: relative;
+}
+.portfolio-item .hover-bg:before {
+	display: block;
+	content: '';
+	position: absolute;
+	top: 6px;
+	right: 6px;
+	bottom: 6px;
+	left: 6px;
+	border: 3px dashed rgba(255, 255, 255, 0.6);
+	border-radius: 10px;
+}
+.hover-bg .hover-text {
+	position: absolute;
+	text-align: center;
+	margin: 0 auto;
+	color: #fff;
+	background: rgba(0, 0, 0, 0.6);
+	padding: 30% 0 0 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: all 0.5s;
+}
+.hover-bg .hover-text>h4 {
+	opacity: 0;
+	color: #fff;
+	-webkit-transform: translateY(100%);
+	transform: translateY(100%);
+	transition: all 0.3s;
+	font-size: 17px;
+	letter-spacing: 0.5px;
+	font-weight: 500;
+}
+.hover-bg:hover .hover-text>h4 {
+	opacity: 1;
+	-webkit-backface-visibility: hidden;
+	-webkit-transform: translateY(0);
+	transform: translateY(0);
+}
+.hover-bg:hover .hover-text {
+	opacity: 1;
+}
+
+.h-info {
+	overflow:auto;    /* pour afficher un ascenseur au niveau des prix */
+	width: 100%;
+	height: 90px;
+	padding: 10px;
+	background-color: #f5e7d7;
+}
+
+.h-info div {
+	float: left;
+}
+
+.h-nom {
+	
+	text-align: left;
+	margin-left: 8px;
+	padding-left: 10px;
+	border-left: 2px dotted brown;
+	color: #8B0000;
+	font: 15px/1.3em 'open sans',sans-serif;
+	
+	
+}
+
+.h-aprix {
+	text-decoration: line-through;
+	font-size: 16px;
+}
+
+.h-prix {
+	color: #8B0000;
+	font-size: 30px;
+	margin-top: 12px;
+	margin-left: -15px;
+}
+
+
+	
+	.t-item{
+        float: left;
+        width:100%;
+
+    }
+	
+	.premier{     /*premiere image d'hotel*/
+	
+		width:100%;	
+	
+	}
+	.deuxieme{ /*deuxieme image d'hotel*/
+	
+	width:100%;
+}
+
+	.troisieme{ /*troisieme image d'hotel*/
+	
+		width: 100%;
+	}
+	
+	.quatrieme{ /*quatrieme image d'hotel*/
+	
+	width:100%;
+	}
+	
+	 .wrap {  /*le groupe des 4 images */
+    width: 100%;
+	 }
+
+	 h2 { /* titre les idées voyages*/
+	font-weight: 500;
+	font-size: 30px;
+	text-transform: uppercase;
+    text-align:center;
+	}
+.carousel-indicators {
+left:250px;
+}
+
+.h-texte {    /* le titre "a la decouverte du monde" */
+  font-size: 30px;
+  text-align : left;
+  margin-left : -70px;
+
+}
+
+}
+
+
+
+.g-item {
+	margin-left: 0%;
+}
+
+.img-responsive {
+	object-fit: cover;
+	width: 100%;
+}
+
+.st {
+	font-size: 20px; 		
+	font-weight: bold;
+}
+
+.sst {
+	
+	font-size: 20px;
+	font-style: italic;
+	border-top: 1px dashed brown;
+	padding-top: 6px;
+}
+
+.p-li, .p-li ol li {
+	line-height: normal;
+	background-color: transparent;
+}
+
+.p-li:hover {
+    background-color: transparent;
+}
+
+svg#fleche {
+	height: 45px;
+	width: 45px;
+	position: fixed;
+	bottom: 40px;
+	right: 10%;
+	z-index: 2;
+}
+
+circle, polyline {
+	stroke: black;
+}
+
+svg#fleche:hover circle, svg#fleche:hover polyline {
+	stroke: brown;
+}
+

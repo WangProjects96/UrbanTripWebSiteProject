@@ -1,0 +1,133 @@
+
+table.icone tr td, .prix {
+    height: 60px;
+    width: 60px;
+    background: url("../Images/sprite_thumb_pictures.png") no-repeat;
+}
+table tr td.sport  {
+    background-position: 0 0;
+}
+table  tr td.sportP  {
+    background-position: -60px 0;
+}
+table tr td.chien  {
+    background-position: -120px 0;
+}
+table tr td.chienP  {
+    background-position: -180px 0;
+}
+table tr td.fume  {
+    background-position: -240px 0;
+}
+table tr td.fumeP  {
+    background-position: -300px 0;
+}
+table tr td.parking  {
+    background-position: -360px 0;
+}
+table tr td.parkingP  {
+    background-position: -420px 0;
+}
+table tr td.wifi  {
+    background-position: -480px 0;
+}
+table tr td.petitDej  {
+    background-position: -600px 0;
+}
+.prix {
+    background-position: -660px 0;
+    margin-left: 30px;
+}
+
+table.icone{
+    margin-left:5px; 
+    border-collapse: separate;
+    border-spacing: 50px 20px;
+}
+
+.prix p{
+    text-align: left;
+    width:400px;
+    height:60px;
+    font-size:30px;
+    padding-left: 15px;
+    margin-top: 0px;
+}
+.prix p span.prixA{
+    font-size:20px;
+    margin-left: 10px;
+    text-decoration: line-through;
+}
+
+.prix p span.prixN{
+    margin-left: 10px;
+    color: red;
+    text-decoration: none;
+}
+
+
+.etoiles3 {
+    height: 25px;
+    width: 75px;
+    background: url("../Images/sprite_thumb_pictures.png") no-repeat; 
+    background-position: 0px -60px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.etoiles4 {
+    height: 25px;
+    width: 100px;
+    background: url("../Images/sprite_thumb_pictures.png") no-repeat; 
+    background-position: 0px -60px;
+    margin: auto;
+    margin-top: 10px;
+}
+.etoiles5 {
+    height: 25px;
+    width: 125px;
+    background: url("../Images/sprite_thumb_pictures.png") no-repeat;
+    background-position: 0px -60px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+
+div#titre div.etoiles3, div#titre div.etoiles4, div#titre div.etoiles5 {
+    bottom: 5px;
+    right: 10px;
+    text-align: right;
+    position: absolute;
+}
+
+.visa {
+    height: 30px;
+    width: 80px;
+    background: url("../Images/sprite_thumb_pictures_paie.png") no-repeat;
+    background-position: 0px 0px;
+    display: block;
+}
+
+.mastercard {
+    height: 30px;
+    width: 45px;
+    background: url("../Images/sprite_thumb_pictures_paie.png") no-repeat;
+    background-position: 0px -30px;
+    display: block;
+}
+
+.cb {
+    height: 30px;
+    width: 40px;
+    background: url("../Images/sprite_thumb_pictures_paie.png") no-repeat;
+    background-position: 0px -60px;
+    display: block;
+}
+
+.paypal {
+    height: 30px;
+    width: 75px;
+    background: url("../Images/sprite_thumb_pictures_paie.png") no-repeat;
+    background-position: 0px -90px;
+    display: block;
+}

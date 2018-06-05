@@ -1,0 +1,163 @@
+
+.isotope-item {
+	z-index: 2
+}
+.isotope-hidden.isotope-item {
+	z-index: 1
+}
+.isotope, .isotope .isotope-item {
+	/* change duration value to whatever you like */
+	-webkit-transition-duration: 0.8s;
+	-moz-transition-duration: 0.8s;
+	transition-duration: 0.8s;
+}
+.isotope-item {
+	margin-right: -1px;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+.isotope {
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-webkit-transition-property: height, width;
+	-moz-transition-property: height, width;
+	transition-property: height, width;
+}
+.isotope .isotope-item {
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-webkit-transition-property: -webkit-transform, opacity;
+	-moz-transition-property: -moz-transform, opacity;
+	transition-property: transform, opacity;
+}
+.portfolio-item {
+	margin: 15px;
+}
+.portfolio-item .hover-bg {
+	overflow: hidden;
+	position: relative;
+}
+.portfolio-item .hover-bg:before {
+	display: block;
+	content: '';
+	position: absolute;
+	top: 6px;
+	right: 6px;
+	bottom: 6px;
+	left: 6px;
+	border: 3px dashed rgba(255, 255, 255, 0.6);
+	border-radius: 10px;
+}
+.hover-bg .hover-text {
+	position: absolute;
+	text-align: center;
+	margin: 0 auto;
+	color: #fff;
+	background: rgba(0, 0, 0, 0.6);
+	padding: 30% 0 0 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: all 0.5s;
+}
+.hover-bg .hover-text>h4 {
+	opacity: 0;
+	color: #fff;
+	-webkit-transform: translateY(100%);
+	transform: translateY(100%);
+	transition: all 0.3s;
+	font-size: 17px;
+	letter-spacing: 0.5px;
+	font-weight: 500;
+}
+.hover-bg:hover .hover-text>h4 {
+	opacity: 1;
+	-webkit-backface-visibility: hidden;
+	-webkit-transform: translateY(0);
+	transform: translateY(0);
+}
+.hover-bg:hover .hover-text {
+	opacity: 1;
+}
+
+.h-info {
+	width: 100%;
+	height: 90px;
+	padding: 10px;
+	background-color: #f5e7d7;
+}
+
+.h-info div {
+	float: left;
+}
+
+.h-nom {
+	margin-left: 8px;
+	padding-left: 10px;
+	border-left: 2px dotted brown;
+	color: #8B0000;
+	font: 15px/1.3em 'open sans',sans-serif;
+}
+
+.h-aprix {
+	text-decoration: line-through;
+	font-size: 16px;
+}
+
+.h-prix {
+	color: #8B0000;
+	font-size: 30px;
+	margin-top: 12px;
+	margin-left: -15px;
+}
+
+.t-item {
+	float: left;
+	width: 50%;
+}
+
+.g-item {
+	margin-left: 0%;
+}
+
+.img-responsive {
+	object-fit: cover;
+	width: 100%;
+}
+
+.st {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.sst {
+	font-size: 20px;
+	font-style: italic;
+	border-top: 1px dashed brown;
+	padding-top: 6px;
+}
+
+.p-li, .p-li ol li {
+	line-height: normal;
+	background-color: transparent;
+}
+
+.p-li:hover {
+    background-color: transparent;
+}
+
+svg#fleche {
+	height: 45px;
+	width: 45px;
+	position: fixed;
+	bottom: 40px;
+	right: 300px;
+}
+
+circle, polyline {
+	stroke: black;
+}
+
+svg#fleche:hover circle, svg#fleche:hover polyline {
+	stroke: brown;
+}
